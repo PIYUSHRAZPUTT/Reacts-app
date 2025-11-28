@@ -1,9 +1,13 @@
-import React from 'react'
+// import React from 'react'
+import Card from './components/Card'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <>
-      <h1>my first react app</h1>
+      <Navbar/>
+      <Card/>
+
     </>
   )
 }
